@@ -1,13 +1,13 @@
-@font-face{ font-family: 'OpenSans-Regular'; src: url('../fonts/OpenSans-Regular.ttf');
+/*@font-face{ font-family: 'Titillium-Black'; src: url(../fonts/Titillium-Black.otf);
 }
 @font-face{
-  font-family: 'OpenSans-Bold';
-  src: url(../fonts/OpenSans-Bold.ttf);
+  font-family: 'Titillium-RegularUpright';
+  src: url(../fonts/Titillium-RegularUpright.otf);
 }
 @font-face{
-  font-family: 'OpenSans-ExtraBold';
-  src: url(../fonts/OpenSans-ExtraBold.ttf);
-}
+  font-family: 'Titillium-Semibold';
+  src: url(../fonts/Titillium-Semibold.otf);
+}*/
 
 body {
     font-size: 16px;
@@ -38,18 +38,19 @@ body {
 
 /***** ESTILOS GENERALES *****/
 .btn-link-1 {
-  width:150px;
+  width: 250px;
   display: inline-block;
-  height: 30px;
+  height: 70px;
   margin: 15px 5px;
   padding: 0 28px;
-  background: #EDA211;
+  background: #FF8000;
   border: 0;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   font-weight: 600;
-  line-height: 30px;
+  line-height: 20px;
   color: #fff;
-  border-radius: 40px;
+  border-radius: 20px;
   transition: all .3s;
 }
 
@@ -58,7 +59,7 @@ body {
 .btn-link-1.btn-primary:not(:disabled):not(.disabled):active:focus {
 	background: #fff;
 	outline: 0;
-	color: #EDA211;
+	color: #FF8000;
 	box-shadow: none;
 }
 
@@ -68,7 +69,7 @@ body {
 	height: 50px;
 	margin: 10px 5px;
 	padding: 0 28px;
-	background: #EDA211;
+	background: #FF8000;
 	border: 0;
 	font-size: 20px;
   font-weight: 600;
@@ -82,7 +83,7 @@ body {
 .btn-link-2.btn-primary:not(:disabled):not(.disabled):active:focus {
   background: #fff;
 	outline: 0;
-	color: #EDA211;
+	color: #FF8000;
 	box-shadow: none;
 }
 
@@ -95,7 +96,7 @@ body {
 
 .navbar .navbar-brand{
   width: 230px;
-  background: url(../img/Logo.svg) left center no-repeat;
+  background: url(../img/logo.svg) left center no-repeat;
   border: 0;
   text-indent: -99999px;
 }
@@ -110,7 +111,7 @@ body {
 .navbar-dark .navbar-nav .nav-link { color: #087FC6; margin: 10px 5px;}
 .navbar-dark .navbar-nav { font-size: 15px; color: #087FC6; font-weight: 00; }
 .navbar-dark .navbar-nav .nav-link:hover { color: #00AEEF; }
-.navbar-dark .navbar-nav .nav-link:focus { color: #EDA211; outline: 0; }
+.navbar-dark .navbar-nav .nav-link:focus { color: #FF8000; outline: 0; }
 .navbar-expand-md .navbar-nav .nav-link { font-size: 20px; padding-left: 1.5rem; padding-right: 1.5rem; }
 
 .navbar-brand {
@@ -130,7 +131,7 @@ body {
 
 .enviado-container h1 {
   margin-top: 0px;
-  font-family: 'OpenSans-Bold', sans-serif;
+  font-family: 'Titillium-Semibold', sans-serif;
   font-size: 70px;
   font-weight: 700;
   color: #087fc6;
@@ -138,9 +139,9 @@ body {
 }
 
 .enviado-container h2 {
-  font-family: 'OpenSans-Regular', sans-serif;
+  font-family: 'Titillium-RegularUpright', sans-serif;
   font-size: 60px;
-  font-weight: 100;
+  font-weight: 700;
   color: #97b5e6;
   line-height: 60px;
 }
@@ -148,50 +149,59 @@ body {
 /***** INICIO *****/
 
 .inicio-container {
-    padding: 100px 0;
+    /*padding: 100px 0;
+    background-color: #EBF5FC;*/
+
     background-color: #EBF5FC;
+    background: url(../img/fondo-azul.png) left center no-repeat;
+    background-size: cover;
 }
 
 .inicio-container h1 {
   margin-top: 0px;
-  font-family: 'OpenSans-Bold', sans-serif;
-  font-size: 70px;
-  font-weight: 700;
-  color: #087fc6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: #FFF;
   line-height: 60px;
 }
 
 .inicio-container h2 {
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 60px;
-  font-weight: 100;
-  color: #97b5e6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #087fc6;
   line-height: 50px;
 }
 
 .inicio-container h3 {
   margin-top: 0px;
-  font-family: 'OpenSans-Regular', sans-serif;
-  font-size: 50px;
-  font-weight: 100;
-  color: #087fc6;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #FFF;
   line-height: 50px;
 }
 
-.inicio-container h4 {
-/*  margin-bottom: 30px;*/
-  font-family: 'OpenSans-Bold', sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  color: #97b5e6;
-  line-height: 50px;
+/***** 2DA SECCION *****/
+
+.fntWhite{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: #fff;
+  text-align: justify;
 }
+
 
 /***** COTIZADOR *****/
 
 .cotizador-container{
-  background-color: #97DAFE;
+  /*background-color: #97DAFE;*/
   font-family: 'OpenSans-Bold', sans-serif;
+  background-color: #97DAFE;
+  background: url(../img/fondo_cielo.png) left center no-repeat;
+  background-size: cover;
 }
 
 .cotizador-container img{
@@ -264,7 +274,7 @@ display: inline-block;
 height: 50px;
 margin: 10px 5px;
 /*padding: 0 28px;*/
-background: #EDA211;
+background: #FF8000;
 border: 0;
 font-size: 20px;
 font-weight: 600;
@@ -277,7 +287,7 @@ text-align: center;
 }
 form .enviar input:hover[type="submit"]
 {
-  background:#fff; color:#EDA211;
+  background:#fff; color:#FF8000;
 }
 
 
@@ -318,9 +328,9 @@ form .enviar input:hover[type="submit"]
 /***** FORMULARIO *****/
 
 .contacto-container{
-background-color: #EBF5FC;
-background: url(../img/formulario_fondo.png) left center no-repeat;
-background-size: cover;
+background-color: #2E2E2E;
+/*background: url(../img/formulario_fondo.png) left center no-repeat;
+background-size: cover;*/
 }
 
 .contacto-container h1 {
@@ -334,19 +344,20 @@ background-size: cover;
   line-height: 0px;
 }
 
-  form{ font-family: 'OpenSans-Regular', sans-serif; width: 100%; max-width:535px; background: none; margin: 0 auto; padding: 20px;}
-  form label{display: block;width: 100%; max-width: 340px;text-align: left;margin:0 auto; font-size: 14px;font-family: 'OpenSans-Regular', sans-serif; font-weight: 300; color:#087fc6;}
-  form input{ -webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;display: block; padding-left:10px;outline:none; border:none;color:#087fc6; width: 100%; max-width: 340px; height: 40px; margin:0 auto; border-radius: 30px; margin-bottom: 10px; background: rgba(255,255,255,1);}
-  form textarea{padding-top:10px;-webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; resize:none; display: block;  padding-left:10px;outline:none; border:none;color:#087fc6; width: 100%; max-width: 340px; height: 94px; border-radius: 15px; margin:0 auto; margin-bottom: 10px; background: rgba(255,255,255,1);}
-  form input[type="submit"]{font-family: 'OpenSans-Bold', sans-serif;font-size:18px;font-weight:300;display: block; padding-left:10px;outline:none; color:#fff; width: 40%; max-width: 340px; height: 56px; margin:0 auto; margin-bottom: 10px;background:#EDA211;border:none; border-radius: 40px;}
-  form input:hover[type="submit"]{background:#fff; color:#EDA211; }
-
+  form{ font-family: 'Titillium Web', sans-serif; width: 100%; max-width:535px; background: none; margin: 0 auto; padding: 20px;}
+  form label{display:  block;width: 100%; max-width: 340px;text-align: left;margin:0 auto; font-size: 14px;font-family: 'Titillium Web', sans-serif; font-weight: 300; color:#087fc6;}
+  form input{ -webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;display: block; background:#A9E2F3; padding-left:20px;outline:none; border:none;color:#087fc6; width: 100%; max-width: 340px; height: 40px; margin:0 auto; border-radius: 30px; margin-bottom: 10px;}
+  form textarea{padding-top:10px;-webkit-transition: all 0.2s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; background:#A9E2F3; resize:none; display: block;  padding-left:20px;outline:none; border:none;color:#087fc6; width: 100%; max-width: 340px; height: 94px; border-radius: 15px; margin:0 auto; margin-bottom: 10px; }
+  form input[type="submit"]{font-family: 'Titillium Web', sans-serif;font-size:18px;font-weight:300;display: block; padding-left:20px;outline:none; color:#fff; width: 40%; max-width: 340px; height: 56px; margin:0 auto; margin-bottom: 10px;background:#FF8000;border:none; border-radius: 40px;}
+  form input:hover[type="submit"]{background:#fff; color:#FF8000; border: 2px solid #FF8000; }
+  form input::placeholder { color: #045FB4;}
+  form textarea::placeholder { color: #045FB4;}
 
 /***** FOOTER *****/
 footer {
   font-family: 'OpenSans-Regular'
 	padding: 40px 0 0 0;
-	background: #fff;
+	background: #2E9AFE;
 	color: #087fc6;
   line-height: 22px;
 }
@@ -363,7 +374,7 @@ footer a{
 }
 
 .menu-footer a:focus {
-  color: #EDA211;
+  color: #FF8000;
   outline: 0;
 }
 
