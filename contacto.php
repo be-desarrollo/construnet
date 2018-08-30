@@ -13,7 +13,7 @@ $mensaje = $_POST['mensaje'];
 
 // ----------- DATOS PARA EL CORREO -----------
 
-$destinatario = "ppycho@hotmail.com";
+$destinatario = "contacto@construnet.mx";
 $asunto = "Contacto desde nuestra web";
 
 $carta = "De: $nombre \n";
