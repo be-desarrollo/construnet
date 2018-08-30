@@ -134,6 +134,12 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
 	text-indent: -99999px;
 }
 
+.bars{
+  background: url(../img/menu.png) left center no-repeat;
+  border: 0;
+  text-indent: -99999px;
+}
+
 /***** INICIO *****/
 .home-container {
   background-color: #EBF5FC;
