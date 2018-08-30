@@ -14,6 +14,14 @@ img
 		padding: 100px 0;
 	}
 
+	.enviado-container .sp10x{
+		margin-bottom: 0px;
+	}
+
+	.enviado-container .sp5x{
+			margin-bottom:.7857142857142857em
+	}
+
 	.enviado-container h1 {
 		font-size: 55px;
 
@@ -29,141 +37,92 @@ img
 	.navbar-dark .navbar-toggler:focus { background: #333; outline: 0; }
 	.navbar-expand-md .navbar-nav .nav-link { padding-top: 0.3rem; padding-bottom: 0.3rem; }
 
-	.inicio-container {
+	.home-container {
 		padding: 90px 0;
 	}
 
-	.inicio-container h1 {
+	.home-container h1 {
 		font-size: 33px;
 
 	}
-	.inicio-container h2 {
+	.home-container h2 {
 		font-size: 33px;
 		line-height: 5px;
 	}
 
-	.inicio-container h3{
+	.home-container h3{
 		font-size: 33px;
 	}
 
-	.inicio-container h4 {
+	.home-container h4 {
 		font-size: 31px;
 		line-height: 5px;
 	}
 
-	/***** COTIZADOR *****/
-.second-section img
+	/***** SEGUNDA SECCION *****/
+.Second-Section-container img
 {
 	width: 60%;
 	height: 55%;
 }
 
-.second-section{
+.Second-Section-container{
 	padding: 30px 0;
 }
 
-.second-section label {
+.Second-Section-container label {
   margin-top: 0px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
   font-weight: 100;
   color: #fff;
   line-height: 25px;
 }
 
-.second-section h1{
+.Second-Section-container h1{
 	font-size: 33px;
 	line-height: 5px;
 
-}.second-section h2 {
+}.Second-Section-container h2 {
 	font-size: 33px;
 	line-height: 5px;
 }
 
-.second-section .sp10x {
+.Second-Section-container .sp10x {
 margin-bottom:1.9642857142857142em
 }
 
-.second-section .sp20x {
+.Second-Section-container .sp20x {
 margin-bottom:3.9285714285714284em
-}
-.second-section .sp20x {
-margin-bottom:3.9285714285714284em
-}
-
-
-/***** PANELES *****/
-.paneles-container img
-{
-	width: 60%;
-	height: 55%;
-}
-.paneles-container{
-	padding: 30px 0;
-}
-
-.paneles-container .espacio .esp10x {
-margin-bottom:2.357142857142857em;
-}
-
-.paneles-container .espacio .essp10x {
-	margin-bottom:0;
-}
-.paneles-container .espacio .ssp5x {
-	margin-bottom:0;
-}
-.paneles-container .sp5x {
-	padding: 0px 0;
-}
-
-.paneles-container h1{
-	font-size: 33px;
-	line-height: 10px;
-}
-.paneles-container h2{
-	font-size: 33px;
-	line-height: 30px;
-
-}
-.paneles-container h4  {
-	font-size: 33px;
-
 }
 
 /***** CONTACTO *****/
 
-.contact-container .sp5x {
+.contacto-container .sp5x {
 
 	padding: 40px 0;
 	margin-bottom:0;
 }
-.contact-container .sp10x {
+.contacto-container .sp10x {
 	padding: 0px 0;
 	margin-bottom:0em;
 }
 
-.contact-container .sp6x {
+.contacto-container .sp6x {
 		margin-bottom:0em;
 }
-.contact-container .sp1x {
+.contacto-container .sp1x {
 
 		margin-bottom:0em;
 }
 
-.contact-container .sp30x {
+.contacto-container .sp30x {
 	padding: 0px 0;
 	margin-bottom:0em;
 }
 
-.contact-container h1 {
+.contacto-container h1 {
 font-size: 33px;
 margin-bottom: 30px;
 }
-
-	footer {
-		text-align: center;
-	}
-	.menu-footer {
-		margin-bottom:1em;
-	}
 }
