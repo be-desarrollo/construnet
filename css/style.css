@@ -1,13 +1,13 @@
 body {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    color: #888;
-    line-height: 30px;
-    text-align: center;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #888;
+  line-height: 30px;
+  text-align: center;
 }
 
-/***** ESTILOS GENERALES *****/
+                                          /***** ESTILOS GENERALES BOTONES *****/
 .btn-link-1 {
   width: 250px;
   display: inline-block;
@@ -58,7 +58,7 @@ body {
 	outline: 0;
 	color: #FF8000;
 	box-shadow: none;
-   border: 2px solid #FF8000;
+  border: 2px solid #FF8000;
 }
 
 .btn-link-3 {
@@ -85,22 +85,23 @@ body {
 	outline: 0;
 	color: #FF8000;
 	box-shadow: none;
-   border: 2px solid #FF8000;
+  border: 2px solid #FF8000;
 }
 
 .shadows{
--webkit-box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
--moz-box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
-box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
+  -webkit-box-shadow: 6px 7px 0px 1px rgba(233,235,245,0.1);
+  -moz-box-shadow: 6px 7px 0px 1px rgba(233,235,245,0.1);
+  box-shadow: 6px 7px 0px 1px rgba(233,235,245,0.1);
 }
 
 .btn-shadow{
-  -webkit-box-shadow: 4px 4px 4px 0px rgba(218,236,245,0.56);
-  -moz-box-shadow: 4px 4px 4px 0px rgba(218,236,245,0.56);
-  box-shadow: 4px 4px 4px 0px rgba(218,236,245,0.56);
+  -webkit-box-shadow: 3px 4px 0px 1px rgba(233,235,245,0.2);
+  -moz-box-shadow: 3px 4px 0px 1px rgba(233,235,245,0.2);
+  box-shadow: 3px 4px 0px 1px rgba(233,235,245,0.2);
 }
+                                          /***** ESTILOS GENERALES BOTONES *****/
 
-/***** MENU TELEFONO *****/
+                                          /***** MENU TELEFONO *****/
 .navbar a{
   color: #087fc6;
   font-size: 33px;
@@ -115,9 +116,9 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
 
 .navbar-dark { background: #fff;}
 .navbar.navbar-no-bg { background: #fff;  }
+                                          /***** FIN MENU TELEFONO *****/
 
-
-/***** BARRA MENU *****/
+                                          /***** BARRA MENU *****/
 .navbar-dark { background: #fff;}
 .navbar.navbar-no-bg { background: #fff;  }
 .navbar-dark .navbar-nav .nav-link { color: #087FC6; margin: 10px 5px;}
@@ -128,19 +129,16 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
 
 .navbar-brand {
 	width: 300px;
-  height: 60px;
+  height: 70px;
   background: url(../img/logo.svg) left center no-repeat;
 	border: 0;
 	text-indent: -99999px;
+  display:block;
+  margin:auto;
 }
+                                          /***** FIN BARRA MENU *****/
 
-.bars{
-  background: url(../img/menu.png) left center no-repeat;
-  border: 0;
-  text-indent: -99999px;
-}
-
-/***** INICIO *****/
+                                          /***** INICIO *****/
 .home-container {
   background-color: #EBF5FC;
   background: url(../img/fondo-azul.png) left center no-repeat;
@@ -160,7 +158,7 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
   font-family: 'Titillium Web', sans-serif;
   font-size: 30px;
   font-weight: 400;
-  color: #087fc6;
+  color: #00BFFF;
   line-height: 50px;
 }
 
@@ -172,8 +170,35 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
   color: #FFF;
   line-height: 50px;
 }
+                                          /***** FIN INICIO *****/
 
-/***** 2DA SECCION *****/
+                                          /***** 2DA SECCION *****/
+.Second-Section-container{
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #97DAFE;
+  background: url(../img/fondo_cielo.png) left center no-repeat;
+  background-size: cover;
+}
+
+.Second-Section-container h1 {
+  padding-top: 40px;
+  margin-bottom: 30px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 50px;
+}
+
+.Second-Section-container h2 {
+  margin-top: 0px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  font-weight: 100;
+  color: #087fc6;
+  line-height: 50px;
+}
+
 .fntWhite{
   font-family: 'Titillium Web', sans-serif;
   font-size: 20px;
@@ -202,7 +227,7 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
 .box-float{
   color: #FFF;
   position: absolute;
-   left: 50px;
+  left: 50px;
   bottom: -70px;
   height: 150px;
   width: 500px;
@@ -210,46 +235,20 @@ box-shadow: 7px 7px 4px 0px rgba(218,236,245,0.56);
   }
 
 .box-container{
-    line-height: 20px;
+  line-height: 20px;
 }
 .align-box{
   line-height: 20px;
 }
 .align-content{
-padding: 25px 20px 10px 10px;
-text-align: right;
+  padding: 25px 20px 10px 10px;
+  text-align: right;
 }
+                                          /***** FIN 2DA SECCION *****/
 
-/***** COTIZADOR *****/
-.Second-Section-container{
-  font-family: 'Titillium Web', sans-serif;
-  background-color: #97DAFE;
-  background: url(../img/fondo_cielo.png) left center no-repeat;
-  background-size: cover;
-}
-
-.Second-Section-container h1 {
-  padding-top: 40px;
-  margin-bottom: 30px;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 60px;
-  font-weight: 700;
-  color: #fff;
-  line-height: 50px;
-}
-
-.Second-Section-container h2 {
-  margin-top: 0px;
-  font-family: 'Titillium Web', sans-serif;
-  font-size: 50px;
-  font-weight: 100;
-  color: #087fc6;
-  line-height: 50px;
-}
-
-/***** FORMULARIO *****/
+                                          /***** FORMULARIO *****/
 .contacto-container{
-background-color: #FFF;
+  background-color: #FFF;
 }
 
 .contacto-container h1 {
@@ -271,8 +270,9 @@ background-color: #FFF;
   form input:hover[type="submit"]{background:#fff; color:#FF8000; border: 2px solid #FF8000; }
   form input::placeholder { color: #045FB4;}
   form textarea::placeholder { color: #045FB4;}
+                                          /***** FIN FORMULARIO *****/
 
-  /***** ENVIADO *****/
+                                          /***** ENVIADO *****/
   .enviado-container {
     background-color: #EBF5FC;
     background: url(../img/fondo_cielo.png) left center no-repeat;
@@ -295,15 +295,15 @@ background-color: #FFF;
     color: #087fc6;
     line-height: 50px;
   }
+                                          /***** FIN ENVIADO *****/
 
-/* STYLES */
-  .sp05x,.sp1x,.sp2x,.sp3x,.sp4x,.sp5x,.sp6x,.sp7x,.sp8x,.sp9x,.sp10x,.sp20x,.sp30x,.sp40x,.sp50x,.sp60x{content:" ";display:inline-block;width:100%;font-size:1em;line-height:0;height:0;border:none;border:0;background-color:none}
-  .sp05x{margin-bottom:0px}
+                                          /* STYLES */
+  .sp0x,.sp2x,.sp3x,.sp4x,.sp5x,.sp6x,.sp7x,.sp8x,.sp9x,.sp10x,.sp20x,.sp30x,.sp40x,.sp50x,.sp60x{content:" ";display:inline-block;width:100%;font-size:1em;line-height:0;height:0;border:none;border:0;background-color:none}
+  .sp0x{margin-bottom:0px}
   .sp2x{margin-bottom:.7857142857142857em}
   .sp3x{margin-bottom:1.1785714285714286em}
   .sp4x{margin-bottom:1.5714285714285714em}
   .sp5x{margin-bottom:1.9642857142857142em}
-  .ssp5x{margin-bottom:1.9642857142857142em}
   .sp6x{margin-bottom:2.357142857142857em}
   .sp7x{margin-bottom:2.75em}
   .sp8x{margin-bottom:3.142857142857143em}
@@ -349,3 +349,4 @@ background-color: #FFF;
   .fnt60 {font-size: 60px;}
   .fnt70 {font-size: 70px;}
   .fnt80 {font-size: 80px;}
+                                          /* FIN STYLES */
